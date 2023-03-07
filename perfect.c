@@ -127,7 +127,3 @@ void* print_perfect_thread(void *num){
         print_perfect(gl_low + (segment * n), gl_low + (segment * (n + 1)));
     }
 }
-
-//c)
-//using multi threads speeds up our program almost n times, n being -t n
-//of ourse n must be a number that our computer can handle, that depends on CPU
